@@ -80,7 +80,7 @@ class atm_interface {
   }
 
   public static void main(String[] args) {
-    atm obj = new atm();
+    atm_interface obj = new atm_interface();
     obj.balance = 1000;
     obj.checkpin();
   }
